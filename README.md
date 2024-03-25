@@ -1,24 +1,51 @@
-# C++ Project Starter Template
+# ChatApplication
 
-This is a little quick-start project template for C++ projects which utilise a Core/App project architecture. There are two included projects - one called _Core_, and one called _App_. [Premake](https://github.com/premake/premake-core) is used to generate project files.
+## 📖 Introduction
 
-Core builds into a static library and is meant to contain common code intended for use in multiple applications. App builds into an executable and links the Core static library, as well as provides an include path to Core's code.
+Our Chat Application provides a versatile platform for users to engage in real-time conversations, whether for personal, professional, or recreational purposes. With its client-server architecture, the application enables multiple users to connect to a central server, facilitating communication across various devices and networks. Whether you're collaborating on a project, catching up with friends, or hosting virtual events, our Chat Application offers a convenient and efficient way to stay connected.
 
-The `Scripts/` directory contains build scripts for Windows and Linux, and the `Vendor/` directory contains Premake binaries (currently version `5.0-beta2`).
+## 📝 Table of Contents
 
-## Getting Started
-1. Clone this repository or use the "Use this template" button on GitHub to quickly set up your own repository based on this template
-2. `App/` and `Core/` are the two projects - you can edit the names of these folders and their contents to suit
-3. The three included Premake build files are `Build.lua`, `Core/Build-Core.lua` and `App/Build-App.lua` - you can edit these to customise your build configurations, edit the names of your projects and workspace/solution, etc.
-4. Open the `Scripts/` directory and run the appropriate `Setup` script to generate projects files. You can edit the setup scripts to change the type of project that is generated - out of the box they are set to Visual Studio 2022 for Windows and gmake2 for Linux.
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Technology Used](#technology-used)
+4. [Getting Started](#getting-started)
+5. [Usage and Functionalities](#usage-and-functionalities)
+6. [Authors](#authors)
+7. [Liscence](#liscence)
 
-Note that no macOS setup script is currently provided; you can duplicate the Linux script and adjust accordingly.
+## 📝 Overview
 
-## Included
-- Some example code (in `App/Source` and `Core/Source`) to provide a starting point and test
-- Simple `.gitignore` to ignore project files and binaries
-- Premake binaries for Win/Mac/Linux (`v5.0-beta2`)
+Welcome to our Chat Application, a robust and scalable solution for real-time messaging needs. This application allows users to connect with each other over a network, exchanging messages seamlessly. Built with C++ and utilizing modern technologies such as Boost::Asio for networking, OpenGL for the user interface, and RapidJSON for efficient data serialization, our Chat Application offers a reliable and feature-rich platform for communication.
 
-## License
-- UNLICENSE for this repository (see `UNLICENSE.txt` for more details)
-- Premake is licensed under BSD 3-Clause (see included LICENSE.txt file for more details)
+## ✨ Features
+
+- **Real-time Messaging:** Experience instant messaging with minimal latency, allowing for smooth and uninterrupted communication.
+- **Cross-Platform Compatibility:** Access the Chat Application from desktop computers, laptops, or mobile devices, regardless of the operating system.
+- **Scalability:** Scale the application effortlessly by adding additional servers to accommodate growing user bases or increasing message traffic.
+- **Customizable User Interface:** Customize the user interface to suit your preferences, with support for themes, fonts, and layout configurations.
+- **Secure Communication:** Ensure the privacy and security of your conversations with encrypted communication channels and robust authentication mechanisms.
+- **Rich Media Support:** Share images, files, and multimedia content seamlessly within the chat interface, enhancing the messaging experience.
+- **Administrative Controls:** Manage user accounts, permissions, and chat rooms effectively with administrative tools and controls.
+- **Offline Messaging:** Send and receive messages even when users are offline, with automatic synchronization upon reconnection.
+
+## 📡 Technology Used
+
+- **C++:** Utilized for the core programming logic and backend server implementation.
+- **OpenGL:** Employed for creating the user interface, providing a rich and interactive experience for users.
+- **Boost/Asio:** Used for networking to establish connections between clients and servers, facilitating real-time communication.
+- **RapidJSON:** Employed for efficient serialization and deserialization of data in JSON format, ensuring fast and reliable message transmission.
+- **MySQL:** Chosen as the backend database management system for storing user data, chat logs, and other relevant information.
+- **MongoDB Atlas:** Utilized for cloud-based storage of server IP addresses, enhancing flexibility and accessibility.
+
+## 🦜 Getting Started
+
+## 👨🏼‍💻 Usage and Functionalities
+
+## 🎓 Author
+
+<p> <a href="https://github.com/Anish2915"><b>Anish Kumar</b><a/></p>
+<p> <a href="https://github.com/prakharmoses"><b>Prakhar Moses </b><a/></p>
+
+## 📰 License
+This Chat Application is not under any liscence. The viewer can't use or modify it without the written permission of the above authors.
