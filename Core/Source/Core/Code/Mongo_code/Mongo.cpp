@@ -15,7 +15,7 @@ std::string mongo::GetIpAddressOfServer()
 {
     try {
         mongocxx::instance inst{};
-        const auto uri = mongocxx::uri{ "mongodb+srv://kumaranish987654:jxiXLao2l8RZ90FE@cluster0.xkhsevv.mongodb.net/" };
+        const auto uri = mongocxx::uri{  };
 
         mongocxx::options::client client_options;
         const auto api = mongocxx::options::server_api{ mongocxx::options::server_api::version::k_version_1 };
