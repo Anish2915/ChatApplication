@@ -53,9 +53,10 @@ Follow these steps to install the Chat Application in your system
     ```bash
     git clone https://github.com/Anish2915/ChatApplication.git
     ```
-
+    
 2. The three included Premake build files are Build.lua, Core/Build-Core.lua, and App/Build-App.lua - you can edit these to customize your build configurations, edit the names of your projects and workspace/solution, etc.
 3. Open the Scripts/ directory and run the appropriate Setup script to generate project files. You can edit the setup scripts to change the type of project that is generated - out of the box they are set to Visual Studio 2022 for Windows and gmake2 for Linux.
+4. [link](https://drive.google.com/file/d/1Q1EWU-j-MQT7rzmhmey3AWfYJ302YQhd/view?usp=sharing) dwonload this and put in Core\Source\Core\ExtraRes\MySql\lib64\vs14 directory
 Note that no macOS setup script is currently provided; you can duplicate the Linux script and adjust it accordingly.
 
 ## 👨🏼‍💻 Usage and Functionalities
